@@ -35,7 +35,7 @@ describe('app', () => {
         message: 'some-message',
       },
     };
-    
+
     const res = await fetch(`${appUrl}/log`, {method: 'post', body});
     expect(res.status).toBe(200);
     return expect(res.text()).resolves.toBe('success');
