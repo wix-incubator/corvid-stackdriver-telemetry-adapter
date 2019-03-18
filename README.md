@@ -13,16 +13,16 @@
 
 Before you can run or deploy the sample, you need to install:
 
-    `npm i`
+    npm i
 
 ## Running the tests
 
-    `npm run test`
+    npm run test
     
 ## Running locally
     
-    `npm start`
+    npm start
 
 ## Deploying to App Engine
 
-    `npm run deploy`
+    npm run deploy
