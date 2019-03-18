@@ -14,3 +14,4 @@ yarn-error.log
 lerna-debug.log
 package-lock.json
 node_modules/
+service-account-key.json
