@@ -1,6 +1,6 @@
 {
   "name": "wix-telemetry-appengine",
-  "description": "wix-code telemetry sink example for appengine",
+  "description": "wix-code telemetry sink example for stackdriver on appengine",
   "version": "0.0.1",
   "private": true,
   "repository": {
