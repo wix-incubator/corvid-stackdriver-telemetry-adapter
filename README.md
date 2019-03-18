@@ -1,5 +1,7 @@
 # wix-code telemetry sink example for google appengine
 
+[![Build Status](https://travis-ci.com/wix-incubator/wix-telemetry-appengine.svg?branch=master)](https://travis-ci.com/wix-incubator/wix-telemetry-appengine)
+
 - [wix-code telemetry sink example for google appengine](#wix-code-telemetry-sink-example-for-google-appengine)
   - [Setup](#setup)
   - [Running the tests](#running-the-tests)
