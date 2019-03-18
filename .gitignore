@@ -1,0 +1,16 @@
+.idea
+.history
+.DS_Store
+.settings
+.project
+.vscode
+*.iml
+target
+/node_modules
+npm-debug.log
+npm-debug.log.*
+yarn.lock
+yarn-error.log
+lerna-debug.log
+package-lock.json
+node_modules/

@@ -1,38 +1,26 @@
-# Quickstart for Node.js in the App Engine standard environment
+# wix-code telemetry sink example for google appengine
 
-This is the sample application for the
-[Quickstart for Node.js in the App Engine standard environment][tutorial]
-tutorial found in the [Google App Engine Node.js standard environment][appengine]
-documentation.
+- [wix-code telemetry sink example for google appengine](#wix-code-telemetry-sink-example-for-google-appengine)
+  - [Setup](#setup)
+  - [Running the tests](#running-the-tests)
+  - [Running locally](#running-locally)
+  - [Deploying to App Engine](#deploying-to-app-engine)
 
-* [Setup](#setup)
-* [Running locally](#running-locally)
-* [Deploying to App Engine](#deploying-to-app-engine)
-* [Running the tests](#running-the-tests)
 
-## Setup
+## Install
 
-Before you can run or deploy the sample, you need to do the following:
+Before you can run or deploy the sample, you need to install:
 
-1.  Refer to the [appengine/README.md][readme] file for instructions on
-    running and deploying.
-1.  Install dependencies:
-
-        npm install
-
-## Running locally
-
-    npm start
-
-## Deploying to App Engine
-
-    npm run deploy
+    `npm i`
 
 ## Running the tests
 
-See [Contributing][contributing].
+    `npm run test`
+    
+## Running locally
+    
+    `npm start`
 
-[appengine]: https://cloud.google.com/appengine/docs/standard/nodejs
-[tutorial]: https://cloud.google.com/appengine/docs/standard/nodejs/quickstart
-[readme]: ../../README.md
-[contributing]: https://github.com/GoogleCloudPlatform/nodejs-docs-samples/blob/master/CONTRIBUTING.md
+## Deploying to App Engine
+
+    `npm run deploy`
