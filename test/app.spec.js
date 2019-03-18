@@ -36,7 +36,10 @@ describe('app', () => {
       },
     };
 
-    const res = await fetch(`${appUrl}/log`, {method: 'post', body});
+    const res = await fetch(`${appUrl}/log`, {
+      method: 'post',
+      body: JSON.stringify(body),
+    });
     expect(res.status).toBe(200);
     return expect(res.text()).resolves.toBe('success');
   });

@@ -23,7 +23,7 @@ module.exports = ({
     logger,
   });
 
-  app.use(bodyParser.json());
+  app.use(bodyParser.json({type: '*/*'}));
   app.get('/is_alive', (req, res) => {
     return res
         .status(200)
