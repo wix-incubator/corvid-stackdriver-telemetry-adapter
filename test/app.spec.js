@@ -30,7 +30,9 @@ describe('app', () => {
 
   it('should succeed to post a log', async () => {
     const body = {
-      logName: 'some-log-name',
+      labels: {
+        tenantId: 'some-log-name',
+      },
       jsonPayload: {
         message: 'some-message',
       },

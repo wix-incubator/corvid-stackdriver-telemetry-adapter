@@ -17,12 +17,19 @@ class StackdriverLogger {
   }
 
   _parsePayload(payload) {
-    payload.logName = `projects/${this._projectId}/logs/${payload.logName}`;
+    payload.logName =
+      `projects/${this._projectId}/logs/${payload.labels.tenantId}`;
     const metadata = {...payload};
     const jsonPayload = payload.jsonPayload;
     delete metadata.jsonPayload;
     if (!metadata.resource) {
       metadata.resource = this._globalResource();
+    }
+    if (metadata.timestamp) {
+      metadata.timestamp = new Date(metadata.timestamp);
+    }
+    if (metadata.receiveTimestamp) {
+      delete metadata.receiveTimestamp;
     }
     return {metadata, jsonPayload};
   }

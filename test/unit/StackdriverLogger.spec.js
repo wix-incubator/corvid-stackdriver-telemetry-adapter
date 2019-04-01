@@ -29,7 +29,7 @@ describe('StackdriverLogger', () => {
         projectId: 'fake',
         logger: sdLoggerStub,
       });
-      stackdriverLogger.log({});
+      stackdriverLogger.log({labels: {tenantId: 'required'}});
 
       expect(sdLoggerStub.log).toHaveBeenCalledTimes(1);
       expect(sdLoggerLogStub.entry).toHaveBeenCalledTimes(1);
