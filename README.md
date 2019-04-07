@@ -1,6 +1,6 @@
 # corvid telemetry sink example for google stackdriver on GAE
 
-[![Build Status](https://travis-ci.org/wix-incubator/wix-telemetry-appengine.svg?branch=master)](https://travis-ci.org/wix-incubator/wix-telemetry-appengine)
+[![Build Status](https://travis-ci.org/wix/corvid-stackdriver-telemetry-adapter.svg?branch=master)](https://travis-ci.org/wix/corvid-stackdriver-telemetry-adapter)
 
   - [Setup](#setup)
   - [Development](#development)
@@ -16,7 +16,7 @@
 
 - Install Node v10 (currently v10.15.3)
 - Install git
-- `$ git clone https://github.com/wix-incubator/wix-telemetry-appengine.git`
+- `$ git clone https://github.com/wix/corvid-stackdriver-telemetry-adapter.git`
 - `$ cd wix-telemetry-appengine`
 - Follow GCP instructions for [creating a google app engine standard environment for node.js](https://cloud.google.com/appengine/docs/standard/nodejs/quickstart).
 - [Set up authentication for stackdriver client](https://cloud.google.com/logging/docs/reference/libraries) by adding a `service-account-key.json`.

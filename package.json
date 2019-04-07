@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/wix-incubator/corvid-stackdriver-telemetry-adapter"
+    "url": "https://github.com/wix/corvid-stackdriver-telemetry-adapter"
   },
   "engines": {
     "node": ">=10"
