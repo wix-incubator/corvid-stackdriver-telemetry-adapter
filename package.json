@@ -1,11 +1,11 @@
 {
-  "name": "wix-telemetry-appengine",
-  "description": "wix-code telemetry sink example for stackdriver on appengine",
+  "name": "corvid-stackdriver-telemetry-adapter",
+  "description": "corvid telemetry sink example for stackdriver on appengine",
   "version": "0.0.1",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/wix-incubator/wix-telemetry-appengine"
+    "url": "https://github.com/wix-incubator/corvid-stackdriver-telemetry-adapter"
   },
   "engines": {
     "node": ">=10"
