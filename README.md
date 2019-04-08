@@ -1,4 +1,8 @@
-# corvid telemetry sink example for google stackdriver on GAE
+# Corvid by Wix Example: Site Monitoring Sink for Google Stackdriver on GAE
+
+This project is a Node.js based example of an adapter for Google Stackdriver that lets you integrate Site monitoring with your Corvid enabled Wix site.
+
+You can use this project as a basis for deploying your own adapter. 
 
 [![Build Status](https://travis-ci.org/wix/corvid-stackdriver-telemetry-adapter.svg?branch=master)](https://travis-ci.org/wix/corvid-stackdriver-telemetry-adapter)
 
@@ -19,7 +23,7 @@
 - `$ git clone https://github.com/wix/corvid-stackdriver-telemetry-adapter.git`
 - `$ cd wix-telemetry-appengine`
 - Follow GCP instructions for [creating a google app engine standard environment for node.js](https://cloud.google.com/appengine/docs/standard/nodejs/quickstart).
-- [Set up authentication for stackdriver client](https://cloud.google.com/logging/docs/reference/libraries) by adding a `service-account-key.json`.
+- [Set up authentication for a stackdriver client](https://cloud.google.com/logging/docs/reference/libraries) by adding a `service-account-key.json`.
  
 
 
@@ -27,7 +31,7 @@
 
 #### Install
 
-Before you can run or deploy the sample, you need to install:
+Before you can run or deploy the sample you need to install:
 
     npm i
 
@@ -44,6 +48,6 @@ Before you can run or deploy the sample, you need to install:
     npm run deploy
 
 ## Register for Site Monitoring
-- Once your service is up and running, you can test it using `/is_alive` endpoint.
-- Register for Site Monitoring in your wix business manager, 
-    - go to Settings -> Site Monitoring -> Connect Monitoring Tools -> Enter your service URL with `/log`
+- Once your service is up and running you can test it using `/is_alive` endpoint.
+- Register for Site Monitoring in your Wix Business Manager: **Settings -> Site Monitoring -> Connect Monitoring Tools** -> 
+  - Enter your service URL with `/log`
