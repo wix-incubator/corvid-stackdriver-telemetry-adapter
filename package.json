@@ -8,7 +8,7 @@
     "url": "https://github.com/wix/corvid-stackdriver-telemetry-adapter"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=18"
   },
   "files": [
     "app"
@@ -26,14 +26,14 @@
     "deploy": "gcloud app deploy"
   },
   "dependencies": {
-    "@google-cloud/logging": "^4.4.0",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+    "@google-cloud/logging": "^11.0.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "eslint": "^5.15.2",
-    "eslint-config-google": "^0.12.0",
-    "jest": "^24.0.0",
+    "eslint": "^8.52.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^29.7.0",
     "node-fetch": "^2.3.0"
   },
   "cloud-repo-tools": {

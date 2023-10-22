@@ -21,7 +21,7 @@ You can use this project as a basis for deploying your own adapter.
 - Install Node v10 (currently v10.15.3)
 - Install git
 - `$ git clone https://github.com/wix/corvid-stackdriver-telemetry-adapter.git`
-- `$ cd corvid-stackdriver-telemetry-adapter`
+- `$ cd velo-gcloud-logging`
 - Follow GCP instructions for [creating a google app engine standard environment for node.js](https://cloud.google.com/appengine/docs/standard/nodejs/quickstart).
 - [Set up authentication for a stackdriver client](https://cloud.google.com/logging/docs/reference/libraries) by adding a `service-account-key.json`.
  
