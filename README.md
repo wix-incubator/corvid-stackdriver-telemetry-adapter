@@ -1,6 +1,6 @@
-# Corvid by Wix Example: Site Monitoring Sink for Google Stackdriver on GAE
+# Velo by Wix Example: Site Monitoring Sync for Google Operations on GAE
 
-This project is a Node.js based example of an adapter for Google Stackdriver that lets you integrate Site monitoring with your Corvid enabled Wix site.
+This project is a Node.js based example of an adapter for Google Operations that lets you integrate Site monitoring with your Velo enabled Wix site.
 
 You can use this project as a basis for deploying your own adapter. 
 
